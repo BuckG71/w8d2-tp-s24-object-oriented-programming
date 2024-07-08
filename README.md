@@ -1,51 +1,16 @@
-# Assignment Handout: Designing and Implementing a Simple Bank Account Management
-System
-### Objective:
-In this assignment, you will apply the Object-Oriented Programming (OOP) concepts learned in
-the lesson to design and implement a simple bank account management system. You will
-demonstrate your understanding of classes, objects, attributes, methods, encapsulation, and
-abstraction.
-### Problem Statement:
-You are tasked with creating a basic bank account management system using OOP principles.
-The system should allow users to create bank accounts, perform transactions, and view account
-details.
-# Requirements:
-## 1. Design a BankAccount class with the following attributes:
-- accountNumber (string): Unique identifier for the bank account
-- accountHolder (string): Name of the account holder
-- balance (float): Current balance of the account
-## 2. Implement the following methods within the BankAccount class:
-- __init__(self, accountNumber, accountHolder, initialBalance): Constructor to initialize the
-bank account with the provided account number, account holder name, and initial balance.
-- deposit(self, amount): Method to deposit a specified amount into the account and update the
-balance accordingly.
-- withdraw(self, amount): Method to withdraw a specified amount from the account and update
-the balance accordingly. If the withdrawal amount exceeds the current balance, display an error
-message.
-- getBalance(self): Method to retrieve and return the current balance of the account.
-- displayAccountInfo(self): Method to display the account number, account holder name, and
-current balance.
-## 3. Encapsulate the attributes of the BankAccount class by using appropriate access modifiers
-(e.g., private or protected) to ensure data integrity and prevent direct access from outside the
-class.
-## 4. Create a main program that demonstrates the usage of the BankAccount class:
-- Instantiate multiple bank account objects with different account numbers, account holder
-names, and initial balances.
-- Perform deposit and withdrawal transactions on the bank account objects.
-- Display the account information and current balance of each bank account.
-## 5. Implement appropriate error handling and input validation:
-- Ensure that the deposit and withdrawal amounts are positive numbers.
-JTC Program : Tech Pathways
-Lesson Plan : Object-Oriented Programming - Part 1
-Phase : Intermediate CS Concepts
-Type : Lesson Plan
-Week / Day : W8D2
-Version Date : 06/10/2024
-- Handle the case where the withdrawal amount exceeds the current balance by displaying an
-error message.
-## 6. Write clear and concise documentation for your code, including:
-- A brief description of the BankAccount class and its purpose
-- Explanation of each attribute and method within the class
-- Instructions on how to run the main program and interact with the bank account objects
-## 7. Test your implementation thoroughly to ensure that all the requirements are met and the
-program functions as expected.
+# Assignment Summary
+In this assignment I created a class named "BankAccount" to create a structure including common attributes and methods for interacting with a bank account, such as making deposits and withdrawals and balance inquiries. I created two files, one to hold the class (classes.py) and another to hold the main program logic (main.py).
+
+## User Instructions
+1. Clone the repository to your local directory
+2. Open a terminal and type the Python command required by your particular OS and Python version, followed by 'main.py', for example:
+
+    ```bash
+    python3 main.py
+    ```
+3. Follow the prompts in the terminal to select desired actions and enter deposit or withdrawal amounts.
+4. Exit the program by typing in the terminal the command relevant to your OS, for example:
+    ```bash
+    'ctrl + c' #Windows
+    'cmd + c' #Mac
+    ```
